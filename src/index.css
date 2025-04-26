@@ -78,3 +78,31 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+
+.confirm-btn, .cancel-btn {
+    
+  padding: 0.5rem;
+  border: none;
+  border-radius: 0.5rem;
+  color: white;
+  cursor: pointer;
+  margin: 10px;
+  transition: background 0.3s;
+}
+
+  
+.confirm-btn {
+  background-color: #2563eb;
+}
+
+.confirm-btn:hover {
+  background-color: #1d4ed8;
+}
+
+.cancel-btn {
+  background-color: #dc2626;
+}
+
+.cancel-btn:hover {
+  background-color: #b91c1c;
+}

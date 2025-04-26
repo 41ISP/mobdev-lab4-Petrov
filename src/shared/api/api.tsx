@@ -21,6 +21,7 @@ export const weatherRequest = {
                 query: location
             }
         })
+        
         return response.data;
     } 
 };

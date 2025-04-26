@@ -22,7 +22,9 @@ export const SearchPage = () => {
         if(query.trim() == '')
           return;
         const response = await weatherRequest.get(query);
-        setWeather(response);
+       
+        if(response.success == undefined)
+          setWeather(response);
     } 
 
     return (
